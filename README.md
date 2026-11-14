@@ -1,8 +1,3 @@
-## Infinite skeletal superfriezes from annuli - FPSAC 2027 submission
-<script
-  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
-  type="text/javascript">
-</script>
 
 In this repository we include sage code to help the reader compute examples of super lambda and mu-expansions, since doing it by hand is a tedious and difficult task. 
 
@@ -17,7 +12,13 @@ P = FractionField(P)
 F.<T1,T2> = ExteriorAlgebra(P)
 ```
 
-Thus, the output $$(\frac{-x_1}{x_2^2x_3})T_1T_2$$ should be read as $$(\frac{-\sqrt{x_1}}{x_2 \sqrt{x_3}})T_1T_2.$$
+Thus, the output 
+
+$$(\frac{-x_1}{x_2^2x_3})T_1T_2$$ 
+
+should be read as 
+
+$$(\frac{-\sqrt{x_1}}{x_2 \sqrt{x_3}})T_1T_2.$$
 
 ## Contents if this repository
 Besides this README.md file, the repository contains 3 files, one for each subsection of section 3 in the submission. 
